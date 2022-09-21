@@ -77,6 +77,7 @@ FarmTab:AddToggle({
 
 EggsTab:AddLabel("Not: Yumurtayı hilesinin çalışması için yumurtanın")
 EggsTab:AddLabel("yanında durmalısın")
+EggsTab:AddLabel("flaws#0011")
 
 EggsTab:AddToggle({
 	Name = "Otomatik Yumurta Aç",

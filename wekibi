@@ -1,6 +1,6 @@
 if game.PlaceId == 8750997647 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Wekibi | [SEASON 4!🍁] ⚡ Tapping Legends X", HidePremium = false, IntroEnabled = false, IntroText = "Wekibi HUB", SaveConfig = true, ConfigFolder = "TutorialConfig"})
+local Window = OrionLib:MakeWindow({Name = "Wekibi | [SEASON 4!🍁] ⚡ Tapping Legends X", HidePremium = false, IntroEnabled = true, IntroText = "Wekibi HUB", SaveConfig = true, ConfigFolder = "TutorialConfig"})
 
 -- Values
 _G.autoTap = true

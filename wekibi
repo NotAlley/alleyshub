@@ -77,7 +77,7 @@ FarmTab:AddToggle({
 
 EggsTab:AddLabel("Not: Yumurtayı hilesinin çalışması için yumurtanın")
 EggsTab:AddLabel("yanında durmalısın")
-EggsTab:AddLabel("flaws#0011")
+EggsTab:AddLabel("flaws#0011 - Tarafından Yapıldı")
 
 EggsTab:AddToggle({
 	Name = "Otomatik Yumurta Aç",
@@ -103,7 +103,7 @@ MiscTab:AddButton({
 EggsTab:AddDropdown({
 	Name = "Yumurta Seç",
 	Default = "Basic Egg",
-	Options = {"Basic Egg", "Rare Egg"},
+	Options = {"Basic Egg", "Rare Egg", "Forest Egg"},
 	Callback = function(Value)
         _G.selectEgg = Value
         print(_G.selectEgg)

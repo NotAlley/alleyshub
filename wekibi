@@ -90,7 +90,7 @@ EggsTab:AddToggle({
 
 
 MiscTab:AddButton({
-	Name = "En iyi hayvanı kuşam",
+	Name = "En iyi hayvanı kuşan",
 	Callback = function()
         equipBest()
   	end    

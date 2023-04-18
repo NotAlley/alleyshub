@@ -1092,6 +1092,22 @@ game:GetService("StarterGui"):SetCore("SendNotification",{["Title"] = "Invisible
 })
 
 misctab:AddButton({
+	Name = "TP Tool",
+	Callback = function()
+        mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Teleport"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+  	end    
+})
+
+misctab:AddButton({
 	Name = "Noclip",
 	Callback = function()
         local Workspace = game:GetService("Workspace")
